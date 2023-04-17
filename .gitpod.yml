@@ -2,4 +2,9 @@ tasks:
   - init: cd webapp && npm install
     command: cd webapp && npm run start
 
+services:
+  openai:
+    apiKey: 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
+  elevenlabs:
+    apiKey: 3042132819d1a9b264599cd10afdfb3b
 
